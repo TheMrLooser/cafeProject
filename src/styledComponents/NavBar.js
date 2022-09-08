@@ -17,11 +17,11 @@ box-shadow: 0px 4px 20px rgb(0 0 0 / 10%);
 export const Wrapper = styled.div`
 width:100%;
 display:flex;
-width:80%;
+max-width:80%;
 align-items:center;
 justify-content: space-between;
 @media only screen and (max-width: 700px) {
-   width: 100%;
+   max-width: 100%;
   }
 `
 

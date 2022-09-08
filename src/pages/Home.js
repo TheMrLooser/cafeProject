@@ -13,6 +13,10 @@ export const Home = () => {
                 <Navigator/>
                 <CardContainer>
                   <Card/>
+                  <Card/>
+                  <Card/>
+                  <Card/>
+                  <Card/> 
                 </CardContainer>
 
             </Wrapper>
