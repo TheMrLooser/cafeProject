@@ -80,16 +80,25 @@ padding-left:5px;
 `
 export const  BannarSearchComponentContainer = styled.div`
 width:100%;
-
-`
-export const  BannarSearchComponent = styled.input`
-width:100%;
+display:flex;
+align-items:center;
+justify-content:space-between;
+padding-right:10px;
 height:40px;
 border-radius:5px;
 border:none;
 padding-left:10px;
 font-size:16px;
 box-shadow:3px 3px 5px #c8c8c8;
+`
+export const  BannarSearchComponent = styled.input`
+width:100%;
+max-width:90%;
+height:40px;
+border-radius:5px;
+border:none;
+padding-left:10px;
+font-size:16px;
 &:focus{
      
     outline:none;
@@ -108,10 +117,11 @@ export const SearchByCities = styled.div`
 width:50px;
 height:50px; 
 border-radius:50%;
-border:3px solid #00f3ff;
+padding:10px;
+${'' /* border:3px solid #00f3ff; */}
 display:flex;
 align-items:center;
 justify-content:center;
-${'' /* box-shadow:2px 2px 4px #00f3ff; */}
+box-shadow:2px 2px 4px #00f3ff;
 
 `
