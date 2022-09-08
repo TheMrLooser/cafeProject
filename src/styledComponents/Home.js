@@ -14,3 +14,7 @@ max-width:95%;
 ${'' /* border:1px solid red; */}
 
 `
+
+export const CardContainer = styled.div`
+
+`
