@@ -4,6 +4,8 @@ import { ThemeProvider } from 'styled-components';
 import {Theme} from  './utils/theme'
 import { NavBar } from './components/Navbar';
 import { Home } from './pages/Home';
+import CafeDetail  from './pages/CafeDetail';
+
 
 
 function App() {
@@ -14,6 +16,7 @@ function App() {
         <NavBar/>
         <Routes>
             <Route path='/' element={<Home/>}/>
+            <Route path='/cafedetails' element={<CafeDetail/>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
