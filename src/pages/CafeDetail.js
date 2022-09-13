@@ -1,13 +1,29 @@
-import React from 'react'
-import Slider from '../components/Slider/Slider'
+import React from "react";
+import Slider from "../components/Slider/Slider";
+import {
+  Container,
+  Wrapper,
+  Heading,
+  Description,
+  NavContainer,
+  NavElements,
+} from "../styledComponents/CafeDetail";
 
 const CafeDetail = () => {
   return (
-    <div>
-      <h1>CAFE DETAILS</h1>
+    <Container>
       <Slider></Slider>
-    </div>
-  )
-}
+      <Wrapper>
+        <Heading>Chai Sutta</Heading>
+        <Description>
+         <NavContainer>
+         <NavElements>About</NavElements>
+         <NavElements>Menu</NavElements>
+         </NavContainer>
+        </Description>
+      </Wrapper>
+    </Container>
+  );
+};
 
-export default CafeDetail
+export default CafeDetail;
