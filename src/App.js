@@ -5,6 +5,7 @@ import {Theme} from  './utils/theme'
 import { NavBar } from './components/Navbar';
 import { Home } from './pages/Home';
 import CafeDetail  from './pages/CafeDetail';
+import Admin from './pages/Admin';
 
 
 
@@ -17,6 +18,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Home/>}/>
             <Route path='/cafedetails' element={<CafeDetail/>}/>
+            <Route path='/Admin' element={<Admin/>}/>
         </Routes>
       </BrowserRouter>
     </ThemeProvider>
