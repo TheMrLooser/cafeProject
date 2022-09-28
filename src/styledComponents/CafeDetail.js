@@ -110,6 +110,7 @@ margin-top: 10px;
 padding-top: 10px; 
 font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 color: #8f8e8b;
+padding-bottom: 30%;
 
 `
 
@@ -119,14 +120,14 @@ max-width: 100%;
 display: flex;
 justify-content: center;
 object-fit: cover;
-padding-bottom: 30%;
+padding-bottom: 10%;
 
 
 `
 
 export const MenuImage = styled.img`
 // height: 35%;
-width: 50%;
+width: 18%;
 @media only screen and (max-width: 500px) {
     width: 95%;
 }
