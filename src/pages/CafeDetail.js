@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Slider from "../components/Slider/Slider";
-import luffy from "../img/luffy.jpg";
+import luffy from "../MenuImages/luffy.jpg";
 import {
   Container,
   Wrapper,

@@ -11,7 +11,7 @@ import Slider from "../components/Slider/Slider";
 import AppRegistrationRoundedIcon from "@mui/icons-material/AppRegistrationRounded";
 
 import img1 from "../MenuImages/img1.jpg";
-import img2 from "../img/img2.jpg";
+import img2 from "../MenuImages/img2.jpg";
 import Gallery from "../components/Gallery";
 
 const Admin = () => {

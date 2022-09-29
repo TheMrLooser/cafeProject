@@ -10,7 +10,7 @@ import {
   More,
 } from "../styledComponents/Card";
 import { Images } from "../styledComponents/Card";
-import hacker from "../img/hacker.jpg";
+import hacker from "../MenuImages/hacker.jpg";
 import DoubleArrowRoundedIcon from "@mui/icons-material/DoubleArrowRounded";
 import ShareLocationSharpIcon from "@mui/icons-material/ShareLocationSharp";
 import { Link } from "react-router-dom";
