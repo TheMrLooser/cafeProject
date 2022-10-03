@@ -6,6 +6,7 @@ import { NavBar } from './components/Navbar';
 import { Home } from './pages/Home';
 import CafeDetail  from './pages/CafeDetail';
 import Admin from './pages/Admin';
+import Footer from './components/Footer';
 
 
 
@@ -20,6 +21,7 @@ function App() {
             <Route path='/cafedetails' element={<CafeDetail/>}/>
             <Route path='/Admin' element={<Admin/>}/>
         </Routes>
+        <Footer></Footer>
       </BrowserRouter>
     </ThemeProvider>
     </>

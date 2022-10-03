@@ -46,7 +46,6 @@ max-width: 95%;
 position: relative;
 // display: flex;
 
-
 `
 
 export const MenuImages = styled.img`
@@ -54,4 +53,16 @@ width: 100%;
 height: 100%;
 
 `
+
+export const AddressContainer = styled.div`
+width: 100%;
+
+
+`
+
+export const RestDetailsContainer = styled.div`
+width: 100%;
+
+`
+ 
 
